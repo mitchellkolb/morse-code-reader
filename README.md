@@ -22,7 +22,7 @@
     alt="Website Badge" />
 </p>
 
-Developed Morse Code BST lookup in C++ with file handling and data structures.
+In this project, I created a Morse code converter using a Binary Search Tree (BST) to efficiently map and convert English text into Morse code. By leveraging the BST's quick lookup capabilities, I was able to develop a tool that translates text to Morse code with speed and accuracy, showcasing practical applications of data structures in solving real-world problems.
 
 ![project image](resources/image1.png)
 
@@ -42,7 +42,10 @@ Developed Morse Code BST lookup in C++ with file handling and data structures.
 - [Team / Contributors / Teachers](#team--contributors--teachers)
 - [How to Set Up](#how-to-set-up)
 - [Project Overview](#project-overview)
-- [References](#references)
+  - [Data Structures Used](#data-structures-used)
+  - [Files and Input/Output](#files-and-inputoutput)
+  - [Results](#results)
+  - [Future Work](#future-work)
 - [Acknowledgments](#acknowledgments)
 
 ---
@@ -86,50 +89,25 @@ g++ -o my_program main.cpp
 
 
 
-
 # Project Overview
-This project utilizes 
+This project is designed to efficiently convert English text into Morse code using a Binary Search Tree (BST). The BST structure allows for quick lookup and retrieval of Morse code equivalents for English characters. I developed this project as part of a programming assignment focused on applying data structures like BSTs in practical scenarios. 
+
+The process begins by reading a preset table of Morse code mappings from the `MorseTable.txt` file and constructing a BST where each node represents a character and its corresponding Morse code. Once the tree is built, the project reads English text from the `Convert.txt` file, converts each character to Morse code using the BST, and outputs the corresponding Morse code.
+
+## Data Structures Used
+I employed a Binary Search Tree (BST) to map English characters to their respective Morse code representations. Each node in the tree contains a character and its corresponding Morse code string. The BST structure allows for efficient insertion and searching, which is crucial for converting large texts quickly.
+
+## Files and Input/Output
+- **`Convert.txt`**: This file contains the English text that will be converted to Morse code. For example, the content "This is a test of the cpts 122 Morse code conversion tool" is converted into Morse code.
+- **`MorseTable.txt`**: This file contains the mappings of English characters to Morse code. Each line of this file represents a character and its corresponding Morse code, such as `e$.` and `t$-`.
+
+## Results
+With this codebase I successfully converted various English text inputs into Morse code. The conversion was printed to the console, and I demonstrated the effectiveness of the BST in handling the lookup and conversion tasks. The conversion process handled both alphabetic characters and special symbols.
+
+## Future Work
+Future improvements could include optimizing the BST to self-balance for even faster lookups, adding functionality to convert Morse code back to English, and expanding the set of characters and symbols supported by the converter.
 
 
-
-## Project Details
-
-### Introduction
-In this project, we apply 
-
-
-### Literature Review
-In this we drew inspiration from various sources, including video tutorials online for 
-
-
-### Technical Plan
-The project employs a 
-
-
-### Implementation Details
-
-#### Files and Structure
-- `game.py`: Contains the racing game environment and controls the car's movement.
-> [!NOTE]
-> These files were 
-
-
-### Implementation
-In this project
-
-#### Results and Observations
-During development,
-<p float="left">
-  <img src="resources/image1.png" alt="First Try" width="300" />
-  <img src="resources/image2.png" alt="Final Try" width="307" />
-</p>
-
-#### Future Work
-Future improvements could include
-
-
-
-## References
 
 
 
