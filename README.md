@@ -51,9 +51,9 @@ In this project, I created a Morse code converter using a Binary Search Tree (BS
 ---
 
 # What I Learned in this Project
-- How to
-- Programming in 
-
+- How to use a Binary Search Tree (BST) and other data structures.
+- Programming concepts like classes, constructors, deconstructors, and nodes.
+- Demonstrating knowledge in object-oriented programming, file I/O, and data management in C++ when dereferencing pointers.
 
 
 # Tools Used / Development Environment
