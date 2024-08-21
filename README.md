@@ -83,6 +83,7 @@ This project was implemented on my macbook using:
 ```zsh
 g++ -o my_program main.cpp
 ```
+- Add in your text to be converted into the `Convert.txt`
 - Then use `./a.out` or `./my_program` depending on whatever you named your executable.
 
 
@@ -95,7 +96,9 @@ This project is designed to efficiently convert English text into Morse code usi
 The process begins by reading a preset table of Morse code mappings from the `MorseTable.txt` file and constructing a BST where each node represents a character and its corresponding Morse code. Once the tree is built, the project reads English text from the `Convert.txt` file, converts each character to Morse code using the BST, and outputs the corresponding Morse code.
 
 ## Data Structures Used
-I employed a Binary Search Tree (BST) to map English characters to their respective Morse code representations. Each node in the tree contains a character and its corresponding Morse code string. The BST structure allows for efficient insertion and searching, which is crucial for converting large texts quickly.
+I employed a Binary Search Tree (BST) to map English characters to their respective Morse code representations. Each node in the tree contains a character and its corresponding Morse code string. The BST structure allows for efficient insertion and searching, which is crucial for converting large texts quickly. 
+
+The BinaryTree and TreeNode is in the BinaryTree.h file and includes the class that creates the TreeNode that contains all the attributes and pointers to the next and previous nodes. This file also contains class functions for searching the BST and displaying it in pre and post order. The BinaryTree class also has constructors and destructors for handling setup and memory allocation. Most of the functions created in this class arent needed for this project but I added them anyway for making the BST complete.
 
 ## Files and Input/Output
 - **`Convert.txt`**: This file contains the English text that will be converted to Morse code. For example, the content "This is a test of the cpts 122 Morse code conversion tool" is converted into Morse code.

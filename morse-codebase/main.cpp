@@ -55,7 +55,8 @@ int main()
       {
          if (open == 1 && newLine == i)
          {
-            cout << endl;
+            //Newline space indentation
+            cout << "/";
             open = 0;
          }
          else
@@ -66,7 +67,7 @@ int main()
          }
       }
       //Word space 
-      cout << "   ";
+      cout << "/";
       //Uncommenting this line out prints the conversion out word by word so it's easier to cross reference to check
       //cout << endl;
    }
