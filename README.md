@@ -24,16 +24,17 @@
 
 In this project, I created a Morse code converter using a Binary Search Tree (BST) to efficiently map and convert English text into Morse code. By leveraging the BST's quick lookup capabilities, I was able to develop a tool that translates text to Morse code with speed and accuracy, showcasing practical applications of data structures in solving real-world problems.
 
-![project image](resources/image1.png)
+![project image](resources/morse-code-gif.gif)
 
 <details>
 <summary style="color:#5087dd">Watch the Full Video Demo Here</summary>
 
-[![Full Video Demo Here](https://img.youtube.com/vi/VidKEY/0.jpg)](https://www.youtube.com/watch?v=VidKEY)
+[![Full Video Demo Here](https://img.youtube.com/vi/qD-gSNceS1s/0.jpg)](https://www.youtube.com/watch?v=qD-gSNceS1s)
 
 </details>
 
 ---
+
 
 
 # Table of Contents

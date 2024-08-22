@@ -1,1 +1,2 @@
-hi
+This is a test of the CPTS 122.
+Morse code conversion tool.
